@@ -1,2 +1,1 @@
-相关代码保存在master分支中
-https://github.com/ZhongyingGao/SplitMinerForArena/tree/master
+第四章和第五章所涉及的代码和原始数据及模型
