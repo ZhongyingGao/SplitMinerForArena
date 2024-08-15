@@ -1,0 +1,12 @@
+Petri Net API/Java v.1.0.1
+--------------------------
+
++ added decomposition into non-overlapping scenarios
++ added support for role annotations in OWFNs
+
+Petri Net API/Java v.1.0.0
+--------------------------
+
++ created basic Petri Net API function
++ created basic parser for reading Petri nets in LoLA format
++ created basic Petri net output in Graphviz DOT format

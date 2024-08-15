@@ -1,0 +1,11 @@
+org.processmining.acceptingpetrinet.algorithms
+org.processmining.acceptingpetrinet.connections
+org.processmining.acceptingpetrinet.dialogs
+org.processmining.acceptingpetrinet.filters
+org.processmining.acceptingpetrinet.filters.impl
+org.processmining.acceptingpetrinet.help
+org.processmining.acceptingpetrinet.models
+org.processmining.acceptingpetrinet.models.impl
+org.processmining.acceptingpetrinet.parameters
+org.processmining.acceptingpetrinet.plugins
+org.processmining.acceptingpetrinet.utils

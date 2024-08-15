@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bundle-License: http://www.gnu.org/licenses/lgpl-3.0.txt
+Bundle-SymbolicName: com.raffaeleconforti.benchmark-commandline
+Archiver-Version: Plexus Archiver
+Built-By: Adriano
+Bnd-LastModified: 1504868785962
+Bundle-ManifestVersion: 2
+Import-Package: au.edu.qut.processmining.miners.splitminer,au.edu.qut.
+ processmining.miners.splitminer.ui.dfgp,au.edu.qut.processmining.mine
+ rs.splitminer.ui.miner,com.raffaeleconforti.benchmark.logic;version="
+ [1.0,2)",com.raffaeleconforti.log.util;version="[1.0,2)",com.raffaele
+ conforti.measurements;version="[1.0,2)",com.raffaeleconforti.noisefil
+ tering.event;version="[1.0,2)",com.raffaeleconforti.wrapper;version="
+ [1.0,2)",org.apache.commons.io;version="[1.4,2)",org.apache.poi.util,
+ org.deckfour.xes.factory,org.deckfour.xes.model,org.eclipse.collectio
+ ns.impl.set.mutable,org.processmining.contexts.uitopia,org.processmin
+ ing.framework.plugin,org.processmining.models.graphbased.directed.bpm
+ n,org.processmining.plugins.bpmn.plugins
+Class-Path: lib/
+Tool: Bnd-2.1.0.20130426-122213
+Main-Class: com.raffaeleconforti.benchmark.BenchmarkCommandline
+Export-Package: com.raffaeleconforti.benchmark;version="1.0.20170829"
+Bundle-Name: benchmark-commandline
+Bundle-Version: 1.0.20170829
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_111
+

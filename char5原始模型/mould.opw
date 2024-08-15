@@ -1,0 +1,84 @@
+[RESOURCES]
+Resource 1
+Resource 2
+Resource 3
+Resource 4
+Resource 5
+Resource 6
+Resource 7
+Resource 8
+Resource 9
+Resource 10
+[VARIABLES]
+assemble.OtherTime
+moulding.OtherTime
+assemble.NVATime
+grout.NVATime
+clean.NumberIn
+polish.VATime
+grout.TranTime
+blend.TranTime
+debubble.OtherTime
+pouing.NumberIn
+polish.OtherTime
+pouing.VATime
+blend.NumberOut
+pouing.NVATime
+fitting.NVATime
+clean.WaitTime
+grout.NumberOut
+assemble.NumberIn
+cut.OtherTime
+moulding.TranTime
+pouing.WaitTime
+cut.NumberIn
+pouing.NumberOut
+clean.NumberOut
+grout.VATime
+assemble.WaitTime
+cut.NVATime
+fitting.VATime
+debubble.NumberIn
+Dispose 1.NumberOut
+fitting.NumberIn
+cut.WaitTime
+fitting.OtherTime
+polish.NumberIn
+debubble.WaitTime
+assemble.NumberOut
+moulding.NumberOut
+Create 1.NumberOut
+clean.TranTime
+polish.NVATime
+fitting.WaitTime
+assemble.VATime
+polish.WaitTime
+pouing.TranTime
+grout.NumberIn
+blend.OtherTime
+blend.NumberIn
+debubble.NumberOut
+clean.VATime
+polish.NumberOut
+grout.OtherTime
+assemble.TranTime
+debubble.TranTime
+cut.NumberOut
+blend.NVATime
+blend.VATime
+debubble.NVATime
+pouing.OtherTime
+cut.TranTime
+moulding.NumberIn
+fitting.TranTime
+clean.OtherTime
+debubble.VATime
+polish.TranTime
+moulding.VATime
+moulding.NVATime
+grout.WaitTime
+blend.WaitTime
+clean.NVATime
+cut.VATime
+moulding.WaitTime
+fitting.NumberOut

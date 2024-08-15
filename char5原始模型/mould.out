@@ -1,0 +1,286 @@
+
+                                      ARENA Simulation Results
+                                                 123
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 6/24/2024
+Analyst: Rockwell Automation                                         Model revision date: 6/24/2024
+
+Replication ended at time      : 1920.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Record 36                                   983.36     (Insuf)    52.135     1913.8        123    
+Record 37                                   62.000     (Insuf)    1.0000     123.00        123    
+Record 38                                   9.0000     (Insuf)    9.0000     9.0000        123    
+Record 39                                   979.34     (Insuf)    55.672     1901.8        122    
+grout.NVATimePerEntity                      .00000     (Insuf)    .00000     .00000        124    
+blend.WaitTimePerEntity                     3.8346     (Insuf)    .00000     17.552        243    
+Record 40                                   61.500     (Insuf)    1.0000     122.00        122    
+Record 41                                   10.000     (Insuf)    10.000     10.000        122    
+cut.TotalTimePerEntity                      3.6001     (Insuf)    3.4319     3.7444        123    
+pouing.NVATimePerEntity                     .00000     (Insuf)    .00000     .00000        123    
+blend.NVATimePerEntity                      .00000     (Insuf)    .00000     .00000        243    
+pouing.TotalTimePerEntity                   2.1599     (Insuf)    2.0253     2.3019        123    
+grout.TotalTimePerEntity                    459.11     (Insuf)    15.242     899.67        124    
+Tally 2                                         --         --         --         --          0
+blend.TranTimePerEntity                     .00000     (Insuf)    .00000     .00000        243    
+clean.VATimePerEntity                       .00000     (Insuf)    .00000     .00000        123    
+clean.OtherTimePerEntity                    6.1020     (Insuf)    5.8850     6.3081        123    
+cut.WaitTimePerEntity                       .00000     (Insuf)    .00000     .00000        123    
+blend.TotalTimePerEntity                    9.6722     (Insuf)    5.6682     23.459        243    
+polish.TotalTimePerEntity                   3.2463     (Insuf)    3.0127     3.5130        122    
+polish.NVATimePerEntity                     .00000     (Insuf)    .00000     .00000        122    
+polish.VATimePerEntity                      .00000     (Insuf)    .00000     .00000        122    
+cut.NVATimePerEntity                        .00000     (Insuf)    .00000     .00000        123    
+fitting.NVATimePerEntity                    .00000     (Insuf)    .00000     .00000        123    
+grout.WaitTimePerEntity                     443.84     (Insuf)    .00000     884.28        124    
+cut.TranTimePerEntity                       .00000     (Insuf)    .00000     .00000        123    
+cut.VATimePerEntity                         .00000     (Insuf)    .00000     .00000        123    
+polish.OtherTimePerEntity                   3.2463     (Insuf)    3.0127     3.5130        122    
+cut.OtherTimePerEntity                      3.6001     (Insuf)    3.4319     3.7444        123    
+debubble.TotalTimePerEntity                 4.5958     (Insuf)    4.4402     4.7650        242    
+assemble.VATimePerEntity                    .00000     (Insuf)    .00000     .00000        242    
+pouing.OtherTimePerEntity                   2.1599     (Insuf)    2.0253     2.3019        123    
+fitting.TotalTimePerEntity                  9.2088     (Insuf)    9.0640     9.3532        123    
+assemble.TotalTimePerEntity                 5.1044     (Insuf)    4.8420     5.3432        242    
+grout.OtherTimePerEntity                    15.260     (Insuf)    15.019     15.513        124    
+debubble.NVATimePerEntity                   .00000     (Insuf)    .00000     .00000        242    
+clean.NVATimePerEntity                      .00000     (Insuf)    .00000     .00000        123    
+blend.OtherTimePerEntity                    5.8376     (Insuf)    5.6502     6.0292        243    
+grout.TranTimePerEntity                     .00000     (Insuf)    .00000     .00000        124    
+moulding.WaitTimePerEntity                  1.7057     (Insuf)    .00000     10.231        247    
+grout.VATimePerEntity                       .00000     (Insuf)    .00000     .00000        124    
+polish.WaitTimePerEntity                    .00000     (Insuf)    .00000     .00000        122    
+debubble.WaitTimePerEntity                  .00000     (Insuf)    .00000     .00000        242    
+Record 1                                    975.23     (Insuf)    .00000     1913.3        247    
+Record 2                                    124.00     (Insuf)    1.0000     247.00        247    
+Record 3                                    1.0000     (Insuf)    1.0000     1.0000        247    
+moulding.TotalTimePerEntity                 5.7113     (Insuf)    3.6717     14.420        247    
+debubble.VATimePerEntity                    .00000     (Insuf)    .00000     .00000        242    
+debubble.OtherTimePerEntity                 4.5958     (Insuf)    4.4402     4.7650        242    
+assemble.WaitTimePerEntity                  .00000     (Insuf)    .00000     .00000        242    
+clean.WaitTimePerEntity                     .00000     (Insuf)    .00000     .00000        123    
+blend.VATimePerEntity                       .00000     (Insuf)    .00000     .00000        243    
+moulding.TranTimePerEntity                  .00000     (Insuf)    .00000     .00000        247    
+pouing.WaitTimePerEntity                    .00000     (Insuf)    .00000     .00000        123    
+polish.TranTimePerEntity                    .00000     (Insuf)    .00000     .00000        122    
+debubble.TranTimePerEntity                  .00000     (Insuf)    .00000     .00000        242    
+fitting.OtherTimePerEntity                  9.2088     (Insuf)    9.0640     9.3532        123    
+assemble.OtherTimePerEntity                 5.1044     (Insuf)    4.8420     5.3432        242    
+fitting.WaitTimePerEntity                   .00000     (Insuf)    .00000     .00000        123    
+moulding.OtherTimePerEntity                 4.0056     (Insuf)    3.6717     4.4042        247    
+clean.TranTimePerEntity                     .00000     (Insuf)    .00000     .00000        123    
+moulding.VATimePerEntity                    .00000     (Insuf)    .00000     .00000        247    
+pouing.TranTimePerEntity                    .00000     (Insuf)    .00000     .00000        123    
+pouing.VATimePerEntity                      .00000     (Insuf)    .00000     .00000        123    
+Record 15                                   967.75     (Insuf)    3.9738     1909.4        243    
+Record 16                                   122.00     (Insuf)    1.0000     243.00        243    
+Record 17                                   3.0000     (Insuf)    3.0000     3.0000        243    
+Record 18                                   969.69     (Insuf)    9.6460     1909.4        242    
+Record 19                                   121.50     (Insuf)    1.0000     242.00        242    
+fitting.TranTimePerEntity                   .00000     (Insuf)    .00000     .00000        123    
+assemble.NVATimePerEntity                   .00000     (Insuf)    .00000     .00000        242    
+assemble.TranTimePerEntity                  .00000     (Insuf)    .00000     .00000        242    
+Record 20                                   2.0000     (Insuf)    2.0000     2.0000        242    
+clean.TotalTimePerEntity                    6.1020     (Insuf)    5.8850     6.3081        123    
+Record 21                                   974.80     (Insuf)    14.842     1914.5        242    
+Record 22                                   121.50     (Insuf)    1.0000     242.00        242    
+Record 23                                   4.0000     (Insuf)    4.0000     4.0000        242    
+Record 24                                   958.26     (Insuf)    19.495     1896.4        124    
+Record 25                                   62.500     (Insuf)    1.0000     124.00        124    
+Record 26                                   5.0000     (Insuf)    5.0000     5.0000        124    
+Record 27                                   965.89     (Insuf)    34.738     1896.4        123    
+Record 28                                   62.000     (Insuf)    1.0000     123.00        123    
+Record 29                                   6.0000     (Insuf)    6.0000     6.0000        123    
+fitting.VATimePerEntity                     .00000     (Insuf)    .00000     .00000        123    
+Record 30                                   975.10     (Insuf)    43.985     1905.6        123    
+moulding.NVATimePerEntity                   .00000     (Insuf)    .00000     .00000        247    
+Record 31                                   62.000     (Insuf)    1.0000     123.00        123    
+Record 32                                   7.0000     (Insuf)    7.0000     7.0000        123    
+Record 33                                   977.26     (Insuf)    46.046     1907.7        123    
+Record 34                                   62.000     (Insuf)    1.0000     123.00        123    
+Record 35                                   8.0000     (Insuf)    8.0000     8.0000        123    
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000        122    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        122    
+Entity 1.WaitTime                           441.99     (Insuf)    .00000     871.22        122    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        122    
+Entity 1.OtherTime                          59.129     (Insuf)    58.331     59.725        122    
+Entity 1.TotalTime                          501.12     (Insuf)    58.963     929.66        122    
+moulding.Queue.WaitingTime                  1.7057     (Insuf)    .00000     10.231        247    
+clean.Queue.WaitingTime                     .00000     (Insuf)    .00000     .00000        123    
+cut.Queue.WaitingTime                       .00000     (Insuf)    .00000     .00000        123    
+assemble.Queue.WaitingTime                  .00000     (Insuf)    .00000     .00000        243    
+blend.Queue.WaitingTime                     3.8700     (Insuf)    .00000     17.552        244    
+grout.Queue.WaitingTime                     447.45     (Insuf)    .00000     893.92        125    
+debubble.Queue.WaitingTime                  .00000     (Insuf)    .00000     .00000        242    
+polish.Queue.WaitingTime                    .00000     (Insuf)    .00000     .00000        123    
+pouing.Queue.WaitingTime                    .00000     (Insuf)    .00000     .00000        123    
+fitting.Queue.WaitingTime                   .00000     (Insuf)    .00000     .00000        124    
+Hold 2.Queue.WaitingTime                        --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                62.195     (Corr)     .00000     125.00     125.00    
+Resource 1.NumberBusy                       .51530     (Insuf)    .00000     1.0000     .00000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .51530     (Insuf)    .00000     1.0000     .00000    
+Resource 2.NumberBusy                       .64587     .06756     .00000     1.0000     1.0000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .64587     .06756     .00000     1.0000     1.0000    
+Resource 3.NumberBusy                       .74132     (Insuf)    .00000     1.0000     1.0000    
+Resource 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 3.Utilization                      .74132     (Insuf)    .00000     1.0000     1.0000    
+Resource 4.NumberBusy                       .57927     .05859     .00000     1.0000     .00000    
+Resource 4.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 4.Utilization                      .57927     .05859     .00000     1.0000     .00000    
+Resource 5.NumberBusy                       .98985     (Insuf)    .00000     1.0000     1.0000    
+Resource 5.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 5.Utilization                      .98985     (Insuf)    .00000     1.0000     1.0000    
+Resource 6.NumberBusy                       .59421     (Insuf)    .00000     1.0000     1.0000    
+Resource 6.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 6.Utilization                      .59421     (Insuf)    .00000     1.0000     1.0000    
+Resource 7.NumberBusy                       .13837     (Insuf)    .00000     1.0000     .00000    
+Resource 7.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 7.Utilization                      .13837     (Insuf)    .00000     1.0000     .00000    
+Resource 8.NumberBusy                       .39091     (Insuf)    .00000     1.0000     .00000    
+Resource 8.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 8.Utilization                      .39091     (Insuf)    .00000     1.0000     .00000    
+Resource 9.NumberBusy                       .23064     (Insuf)    .00000     1.0000     .00000    
+Resource 9.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 9.Utilization                      .23064     (Insuf)    .00000     1.0000     .00000    
+Resource 10.NumberBusy                      .20763     (Insuf)    .00000     1.0000     1.0000    
+Resource 10.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 10.Utilization                     .20763     (Insuf)    .00000     1.0000     1.0000    
+moulding.Queue.NumberInQueue                .21943     (Insuf)    .00000     3.0000     .00000    
+clean.Queue.NumberInQueue                   .00000     (Insuf)    .00000     .00000     .00000    
+cut.Queue.NumberInQueue                     .00000     (Insuf)    .00000     .00000     .00000    
+assemble.Queue.NumberInQueue                .00000     (Insuf)    .00000     .00000     .00000    
+blend.Queue.NumberInQueue                   .50367     .17556     .00000     3.0000     3.0000    
+grout.Queue.NumberInQueue                   56.438     (Corr)     .00000     117.00     117.00    
+debubble.Queue.NumberInQueue                .00000     (Insuf)    .00000     .00000     .00000    
+polish.Queue.NumberInQueue                  .00000     (Insuf)    .00000     .00000     .00000    
+pouing.Queue.NumberInQueue                  .00000     (Insuf)    .00000     .00000     .00000    
+fitting.Queue.NumberInQueue                 .00000     (Insuf)    .00000     .00000     .00000    
+Hold 2.Queue.NumberInQueue                  .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+assemble Accum Other Time                   1235.2    
+moulding Accum Other Time                   989.38    
+assemble Accum NVA Time                     .00000    
+grout Total Accum Time                      56929.    
+grout Accum NVA Time                        .00000    
+clean Number In                             123.00    
+blend Total Accum Time                      2350.3    
+polish Accum VA Time                        .00000    
+grout Accum Transfer Time                   .00000    
+pouing Total Accum Time                     265.67    
+blend Accum Transfer Time                   .00000    
+debubble Accum Other Time                   1112.1    
+pouing Number In                            123.00    
+polish Accum Other Time                     396.04    
+pouing Accum VA Time                        .00000    
+blend Number Out                            243.00    
+pouing Accum NVA Time                       .00000    
+fitting Accum NVA Time                      .00000    
+clean Accum Wait Time                       .00000    
+debubble Total Accum Time                   1112.1    
+grout Number Out                            124.00    
+assemble Number In                          243.00    
+cut Accum Other Time                        442.81    
+moulding Accum Transfer Time                .00000    
+cut Total Accum Time                        442.81    
+pouing Accum Wait Time                      .00000    
+cut Number In                               123.00    
+pouing Number Out                           123.00    
+clean Number Out                            123.00    
+grout Accum VA Time                         .00000    
+assemble Accum Wait Time                    .00000    
+cut Accum NVA Time                          .00000    
+assemble Total Accum Time                   1235.2    
+fitting Accum VA Time                       .00000    
+debubble Number In                          242.00    
+fitting Number In                           124.00    
+cut Accum Wait Time                         .00000    
+polish Number In                            123.00    
+fitting Accum Other Time                    1132.6    
+debubble Accum Wait Time                    .00000    
+assemble Number Out                         242.00    
+moulding Number Out                         247.00    
+clean Total Accum Time                      750.55    
+clean Accum Transfer Time                   .00000    
+polish Accum NVA Time                       .00000    
+fitting Accum Wait Time                     .00000    
+assemble Accum VA Time                      .00000    
+polish Accum Wait Time                      .00000    
+pouing Accum Transfer Time                  .00000    
+polish Total Accum Time                     396.04    
+grout Number In                             242.00    
+blend Accum Other Time                      1418.5    
+blend Number In                             247.00    
+debubble Number Out                         242.00    
+clean Accum VA Time                         .00000    
+polish Number Out                           122.00    
+grout Accum Other Time                      1892.2    
+assemble Accum Transfer Time                .00000    
+debubble Accum Transfer Time                .00000    
+cut Number Out                              123.00    
+blend Accum NVA Time                        .00000    
+blend Accum VA Time                         .00000    
+cut Accum Transfer Time                     .00000    
+pouing Accum Other Time                     265.67    
+debubble Accum NVA Time                     .00000    
+moulding Number In                          247.00    
+clean Accum Other Time                      750.55    
+fitting Accum Transfer Time                 .00000    
+polish Accum Transfer Time                  .00000    
+debubble Accum VA Time                      .00000    
+moulding Accum VA Time                      .00000    
+moulding Total Accum Time                   1410.6    
+moulding Accum NVA Time                     .00000    
+grout Accum Wait Time                       55037.    
+blend Accum Wait Time                       931.80    
+fitting Total Accum Time                    1132.6    
+clean Accum NVA Time                        .00000    
+cut Accum VA Time                           .00000    
+moulding Accum Wait Time                    421.30    
+fitting Number Out                          123.00    
+Entity 1.NumberIn                           247.00    
+Entity 1.NumberOut                          122.00    
+Resource 1.NumberSeized                     247.00    
+Resource 1.ScheduledUtilization             .51530    
+Resource 2.NumberSeized                     243.00    
+Resource 2.ScheduledUtilization             .64587    
+Resource 3.NumberSeized                     244.00    
+Resource 3.ScheduledUtilization             .74132    
+Resource 4.NumberSeized                     242.00    
+Resource 4.ScheduledUtilization             .57927    
+Resource 5.NumberSeized                     125.00    
+Resource 5.ScheduledUtilization             .98985    
+Resource 6.NumberSeized                     124.00    
+Resource 6.ScheduledUtilization             .59421    
+Resource 7.NumberSeized                     123.00    
+Resource 7.ScheduledUtilization             .13837    
+Resource 8.NumberSeized                     123.00    
+Resource 8.ScheduledUtilization             .39091    
+Resource 9.NumberSeized                     123.00    
+Resource 9.ScheduledUtilization             .23064    
+Resource 10.NumberSeized                    123.00    
+Resource 10.ScheduledUtilization            .20763    
+System.NumberOut                            122.00    
+
+
+Simulation run time: 0.00 minutes.
+Simulation run complete.
