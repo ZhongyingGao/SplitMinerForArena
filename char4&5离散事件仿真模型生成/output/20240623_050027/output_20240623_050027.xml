@@ -1,0 +1,158 @@
+<ns0:definitions xmlns:ns0="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:ns2="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:ns3="http://www.omg.org/spec/DD/20100524/DC" xmlns:ns4="http://www.omg.org/spec/DD/20100524/DI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.omg.org/bpmn20" exporter="ProM. http://www.promtools.org/prom6" exporterVersion="6.3" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd"><ns0:process id="proc_1576861390">
+<ns0:startEvent id="node_ee55a370-e3d8-4d2e-8fef-efb43702bc71" name="0" targetRef="node_7f82aed3-1ea5-4448-8191-5ec86b0f9d02" />
+<ns0:endEvent id="node_55dea8d2-605f-48cc-bf85-95b67e1fc01f" name="-1" sourceRef="node_d1090127-e343-4e10-a687-c680845628c6" />
+<ns0:task id="node_77e5a5e3-6ff0-496d-aab3-83bb6df560e8" name="1" targetRef="node_fcd3e294-9fed-42ac-9a33-da6579f45e4e" sourceRef="node_7f82aed3-1ea5-4448-8191-5ec86b0f9d02">
+<ns0:standardLoopCharacteristics testBefore="false" />
+</ns0:task>
+<ns0:task id="node_fcd3e294-9fed-42ac-9a33-da6579f45e4e" name="2" sourceRef="node_77e5a5e3-6ff0-496d-aab3-83bb6df560e8" targetRef="node_1aae0848-8dd5-4113-9382-5ce175bf5faf">
+<ns0:standardLoopCharacteristics testBefore="false" />
+</ns0:task>
+<ns0:task id="node_2e81d6be-b104-4de7-820a-a0660006ce9d" name="3" targetRef="node_2933d415-bb84-4e47-b642-72ac2fc63a4a" sourceRef="node_2933d415-bb84-4e47-b642-72ac2fc63a4a">
+<ns0:standardLoopCharacteristics testBefore="false" />
+</ns0:task>
+<ns0:task id="node_679ce3a2-f429-40d9-beb8-f2f2534d2472" name="4" targetRef="node_d1090127-e343-4e10-a687-c680845628c6" sourceRef="node_d1090127-e343-4e10-a687-c680845628c6">
+<ns0:standardLoopCharacteristics testBefore="false" />
+</ns0:task>
+<ns0:task id="node_1aae0848-8dd5-4113-9382-5ce175bf5faf" name="5" targetRef="node_7f82aed3-1ea5-4448-8191-5ec86b0f9d02,node_8c6d106c-373c-4fb9-9d68-2df9e2ce66be" sourceRef="node_fcd3e294-9fed-42ac-9a33-da6579f45e4e">
+<ns0:standardLoopCharacteristics testBefore="false" />
+</ns0:task>
+<ns0:task id="node_b19a3c5a-774a-40a0-bc14-37ef1298a0b0" name="6" targetRef="node_2933d415-bb84-4e47-b642-72ac2fc63a4a" sourceRef="node_8c6d106c-373c-4fb9-9d68-2df9e2ce66be">
+<ns0:standardLoopCharacteristics testBefore="false" />
+</ns0:task>
+<ns0:task id="node_8c6d106c-373c-4fb9-9d68-2df9e2ce66be" name="7" sourceRef="node_1aae0848-8dd5-4113-9382-5ce175bf5faf" targetRef="node_b19a3c5a-774a-40a0-bc14-37ef1298a0b0">
+<ns0:standardLoopCharacteristics testBefore="false" />
+</ns0:task>
+<ns0:task id="node_7f82aed3-1ea5-4448-8191-5ec86b0f9d02" name="8" targetRef="node_77e5a5e3-6ff0-496d-aab3-83bb6df560e8" sourceRef="node_1aae0848-8dd5-4113-9382-5ce175bf5faf,node_ee55a370-e3d8-4d2e-8fef-efb43702bc71">
+<ns0:standardLoopCharacteristics testBefore="false" />
+</ns0:task>
+<ns0:task id="node_d1090127-e343-4e10-a687-c680845628c6" name="9" sourceRef="node_679ce3a2-f429-40d9-beb8-f2f2534d2472" targetRef="node_679ce3a2-f429-40d9-beb8-f2f2534d2472,node_55dea8d2-605f-48cc-bf85-95b67e1fc01f">
+<ns0:standardLoopCharacteristics testBefore="false" />
+</ns0:task>
+<ns0:task id="node_2933d415-bb84-4e47-b642-72ac2fc63a4a" name="10" sourceRef="node_2e81d6be-b104-4de7-820a-a0660006ce9d,node_b19a3c5a-774a-40a0-bc14-37ef1298a0b0" targetRef="node_2e81d6be-b104-4de7-820a-a0660006ce9d">
+<ns0:standardLoopCharacteristics testBefore="false" />
+</ns0:task>
+<ns0:sequenceFlow id="node_aa08d088-c269-42ea-adf4-26f7dfdde6ae" name="28814" sourceRef="node_77e5a5e3-6ff0-496d-aab3-83bb6df560e8" targetRef="node_fcd3e294-9fed-42ac-9a33-da6579f45e4e" />
+<ns0:sequenceFlow id="node_493b4de7-3291-4212-9cea-7a1386771e6f" name="29603" sourceRef="node_7f82aed3-1ea5-4448-8191-5ec86b0f9d02" targetRef="node_77e5a5e3-6ff0-496d-aab3-83bb6df560e8" />
+<ns0:sequenceFlow id="node_63d96957-1fac-458f-a3e5-3f2cb73b3415" name="5449" sourceRef="node_2e81d6be-b104-4de7-820a-a0660006ce9d" targetRef="node_2933d415-bb84-4e47-b642-72ac2fc63a4a" />
+<ns0:sequenceFlow id="node_0873f4b0-47a2-4887-81df-b0886a242818" name="6890" sourceRef="node_679ce3a2-f429-40d9-beb8-f2f2534d2472" targetRef="node_d1090127-e343-4e10-a687-c680845628c6" />
+<ns0:sequenceFlow id="node_961f09a6-f57c-4e77-9637-0a87c7042c0d" name="24724" sourceRef="node_1aae0848-8dd5-4113-9382-5ce175bf5faf" targetRef="node_7f82aed3-1ea5-4448-8191-5ec86b0f9d02" />
+<ns0:sequenceFlow id="node_dd92cd11-6c04-4047-8c59-e1df4099a500" name="3056" sourceRef="node_b19a3c5a-774a-40a0-bc14-37ef1298a0b0" targetRef="node_2933d415-bb84-4e47-b642-72ac2fc63a4a" />
+<ns0:sequenceFlow id="node_2898b360-c0d6-48d8-9aef-bd627bedaf55" name="1887" sourceRef="node_1aae0848-8dd5-4113-9382-5ce175bf5faf" targetRef="node_8c6d106c-373c-4fb9-9d68-2df9e2ce66be" />
+<ns0:sequenceFlow id="node_b343bb22-a13d-4a9b-8433-4be45fcb6b32" name="5498" sourceRef="node_d1090127-e343-4e10-a687-c680845628c6" targetRef="node_679ce3a2-f429-40d9-beb8-f2f2534d2472" />
+<ns0:sequenceFlow id="node_650ec08c-0add-4539-b994-47ebe48ba141" name="29600" sourceRef="node_fcd3e294-9fed-42ac-9a33-da6579f45e4e" targetRef="node_1aae0848-8dd5-4113-9382-5ce175bf5faf" />
+<ns0:sequenceFlow id="node_daeca13d-776a-4596-aaed-001599f1b9b6" name="3719" sourceRef="node_ee55a370-e3d8-4d2e-8fef-efb43702bc71" targetRef="node_7f82aed3-1ea5-4448-8191-5ec86b0f9d02" />
+<ns0:sequenceFlow id="node_197399f9-d3f5-4e51-9d25-a37726158828" name="1885" sourceRef="node_d1090127-e343-4e10-a687-c680845628c6" targetRef="node_55dea8d2-605f-48cc-bf85-95b67e1fc01f" />
+<ns0:sequenceFlow id="node_d14c1020-cc81-483d-9795-680654d9342a" name="1892" sourceRef="node_8c6d106c-373c-4fb9-9d68-2df9e2ce66be" targetRef="node_b19a3c5a-774a-40a0-bc14-37ef1298a0b0" />
+<ns0:sequenceFlow id="node_f3a7268d-306c-4942-a50c-88a999360f34" name="6795" sourceRef="node_2933d415-bb84-4e47-b642-72ac2fc63a4a" targetRef="node_2e81d6be-b104-4de7-820a-a0660006ce9d" />
+</ns0:process>
+<ns2:BPMNDiagram id="id_1346433625">
+<ns2:BPMNPlane bpmnElement="proc_1576861390">
+<ns2:BPMNShape bpmnElement="node_ee55a370-e3d8-4d2e-8fef-efb43702bc71">
+<ns3:Bounds x="1.0" y="131.5" width="25.0" height="25.0" />
+<ns2:BPMNLabel />
+</ns2:BPMNShape>
+<ns2:BPMNShape bpmnElement="node_7f82aed3-1ea5-4448-8191-5ec86b0f9d02">
+<ns3:Bounds x="76.0" y="124.0" width="80.0" height="40.0" />
+<ns2:BPMNLabel />
+</ns2:BPMNShape>
+<ns2:BPMNShape bpmnElement="node_2933d415-bb84-4e47-b642-72ac2fc63a4a">
+<ns3:Bounds x="856.0" y="116.0" width="80.0" height="40.0" />
+<ns2:BPMNLabel />
+</ns2:BPMNShape>
+<ns2:BPMNShape bpmnElement="node_b19a3c5a-774a-40a0-bc14-37ef1298a0b0">
+<ns3:Bounds x="726.0" y="116.0" width="80.0" height="40.0" />
+<ns2:BPMNLabel />
+</ns2:BPMNShape>
+<ns2:BPMNShape bpmnElement="node_77e5a5e3-6ff0-496d-aab3-83bb6df560e8">
+<ns3:Bounds x="206.0" y="101.0" width="80.0" height="40.0" />
+<ns2:BPMNLabel />
+</ns2:BPMNShape>
+<ns2:BPMNShape bpmnElement="node_d1090127-e343-4e10-a687-c680845628c6">
+<ns3:Bounds x="1.0" y="231.0" width="80.0" height="40.0" />
+<ns2:BPMNLabel />
+</ns2:BPMNShape>
+<ns2:BPMNShape bpmnElement="node_679ce3a2-f429-40d9-beb8-f2f2534d2472">
+<ns3:Bounds x="131.0" y="231.0" width="80.0" height="40.0" />
+<ns2:BPMNLabel />
+</ns2:BPMNShape>
+<ns2:BPMNShape bpmnElement="node_55dea8d2-605f-48cc-bf85-95b67e1fc01f">
+<ns3:Bounds x="158.5" y="300.5" width="25.0" height="25.0" />
+<ns2:BPMNLabel />
+</ns2:BPMNShape>
+<ns2:BPMNShape bpmnElement="node_8c6d106c-373c-4fb9-9d68-2df9e2ce66be">
+<ns3:Bounds x="596.0" y="119.0" width="80.0" height="40.0" />
+<ns2:BPMNLabel />
+</ns2:BPMNShape>
+<ns2:BPMNShape bpmnElement="node_2e81d6be-b104-4de7-820a-a0660006ce9d">
+<ns3:Bounds x="986.0" y="116.0" width="80.0" height="40.0" />
+<ns2:BPMNLabel />
+</ns2:BPMNShape>
+<ns2:BPMNShape bpmnElement="node_1aae0848-8dd5-4113-9382-5ce175bf5faf">
+<ns3:Bounds x="466.0" y="122.0" width="80.0" height="40.0" />
+<ns2:BPMNLabel />
+</ns2:BPMNShape>
+<ns2:BPMNShape bpmnElement="node_fcd3e294-9fed-42ac-9a33-da6579f45e4e">
+<ns3:Bounds x="336.0" y="101.0" width="80.0" height="40.0" />
+<ns2:BPMNLabel />
+</ns2:BPMNShape>
+<ns2:BPMNEdge bpmnElement="node_f3a7268d-306c-4942-a50c-88a999360f34">
+<ns4:waypoint x="896.0" y="136.0" />
+<ns4:waypoint x="961.0" y="143.5" />
+<ns4:waypoint x="1026.0" y="136.0" />
+</ns2:BPMNEdge>
+<ns2:BPMNEdge bpmnElement="node_d14c1020-cc81-483d-9795-680654d9342a">
+<ns4:waypoint x="636.0" y="139.0" />
+<ns4:waypoint x="766.0" y="136.0" />
+</ns2:BPMNEdge>
+<ns2:BPMNEdge bpmnElement="node_0873f4b0-47a2-4887-81df-b0886a242818">
+<ns4:waypoint x="171.0" y="251.0" />
+<ns4:waypoint x="106.0" y="243.5" />
+<ns4:waypoint x="41.0" y="251.0" />
+</ns2:BPMNEdge>
+<ns2:BPMNEdge bpmnElement="node_197399f9-d3f5-4e51-9d25-a37726158828">
+<ns4:waypoint x="41.0" y="251.0" />
+<ns4:waypoint x="171.0" y="313.0" />
+</ns2:BPMNEdge>
+<ns2:BPMNEdge bpmnElement="node_b343bb22-a13d-4a9b-8433-4be45fcb6b32">
+<ns4:waypoint x="41.0" y="251.0" />
+<ns4:waypoint x="106.0" y="258.5" />
+<ns4:waypoint x="171.0" y="251.0" />
+</ns2:BPMNEdge>
+<ns2:BPMNEdge bpmnElement="node_650ec08c-0add-4539-b994-47ebe48ba141">
+<ns4:waypoint x="376.0" y="121.0" />
+<ns4:waypoint x="506.0" y="142.0" />
+</ns2:BPMNEdge>
+<ns2:BPMNEdge bpmnElement="node_aa08d088-c269-42ea-adf4-26f7dfdde6ae">
+<ns4:waypoint x="246.0" y="121.0" />
+<ns4:waypoint x="376.0" y="121.0" />
+</ns2:BPMNEdge>
+<ns2:BPMNEdge bpmnElement="node_63d96957-1fac-458f-a3e5-3f2cb73b3415">
+<ns4:waypoint x="1026.0" y="136.0" />
+<ns4:waypoint x="961.0" y="128.5" />
+<ns4:waypoint x="896.0" y="136.0" />
+</ns2:BPMNEdge>
+<ns2:BPMNEdge bpmnElement="node_493b4de7-3291-4212-9cea-7a1386771e6f">
+<ns4:waypoint x="116.0" y="144.0" />
+<ns4:waypoint x="246.0" y="121.0" />
+</ns2:BPMNEdge>
+<ns2:BPMNEdge bpmnElement="node_2898b360-c0d6-48d8-9aef-bd627bedaf55">
+<ns4:waypoint x="506.0" y="142.0" />
+<ns4:waypoint x="636.0" y="139.0" />
+</ns2:BPMNEdge>
+<ns2:BPMNEdge bpmnElement="node_dd92cd11-6c04-4047-8c59-e1df4099a500">
+<ns4:waypoint x="766.0" y="136.0" />
+<ns4:waypoint x="896.0" y="136.0" />
+</ns2:BPMNEdge>
+<ns2:BPMNEdge bpmnElement="node_daeca13d-776a-4596-aaed-001599f1b9b6">
+<ns4:waypoint x="13.5" y="144.0" />
+<ns4:waypoint x="116.0" y="144.0" />
+</ns2:BPMNEdge>
+<ns2:BPMNEdge bpmnElement="node_961f09a6-f57c-4e77-9637-0a87c7042c0d">
+<ns4:waypoint x="506.0" y="142.0" />
+<ns4:waypoint x="376.0" y="171.0" />
+<ns4:waypoint x="246.0" y="171.0" />
+<ns4:waypoint x="116.0" y="144.0" />
+</ns2:BPMNEdge>
+</ns2:BPMNPlane>
+</ns2:BPMNDiagram>
+</ns0:definitions>

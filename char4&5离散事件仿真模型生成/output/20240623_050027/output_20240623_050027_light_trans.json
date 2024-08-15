@@ -1,0 +1,110 @@
+{
+    "node_ee55a370-e3d8-4d2e-8fef-efb43702bc71": {
+        "id": "node_ee55a370-e3d8-4d2e-8fef-efb43702bc71",
+        "module": "startEvent",
+        "name": "0",
+        "currency": "",
+        "targetRef": "node_7f82aed3-1ea5-4448-8191-5ec86b0f9d02",
+        "sourceRef": "",
+        "gatewayDirection": ""
+    },
+    "node_55dea8d2-605f-48cc-bf85-95b67e1fc01f": {
+        "id": "node_55dea8d2-605f-48cc-bf85-95b67e1fc01f",
+        "module": "endEvent",
+        "name": "-1",
+        "currency": "",
+        "targetRef": "",
+        "sourceRef": "node_d1090127-e343-4e10-a687-c680845628c6",
+        "gatewayDirection": ""
+    },
+    "node_77e5a5e3-6ff0-496d-aab3-83bb6df560e8": {
+        "id": "node_77e5a5e3-6ff0-496d-aab3-83bb6df560e8",
+        "module": "task",
+        "name": "1",
+        "currency": "",
+        "targetRef": "node_fcd3e294-9fed-42ac-9a33-da6579f45e4e",
+        "sourceRef": "node_7f82aed3-1ea5-4448-8191-5ec86b0f9d02",
+        "gatewayDirection": ""
+    },
+    "node_fcd3e294-9fed-42ac-9a33-da6579f45e4e": {
+        "id": "node_fcd3e294-9fed-42ac-9a33-da6579f45e4e",
+        "module": "task",
+        "name": "2",
+        "currency": "",
+        "targetRef": "node_1aae0848-8dd5-4113-9382-5ce175bf5faf",
+        "sourceRef": "node_77e5a5e3-6ff0-496d-aab3-83bb6df560e8",
+        "gatewayDirection": ""
+    },
+    "node_2e81d6be-b104-4de7-820a-a0660006ce9d": {
+        "id": "node_2e81d6be-b104-4de7-820a-a0660006ce9d",
+        "module": "task",
+        "name": "3",
+        "currency": "",
+        "targetRef": "node_2933d415-bb84-4e47-b642-72ac2fc63a4a",
+        "sourceRef": "node_2933d415-bb84-4e47-b642-72ac2fc63a4a",
+        "gatewayDirection": ""
+    },
+    "node_679ce3a2-f429-40d9-beb8-f2f2534d2472": {
+        "id": "node_679ce3a2-f429-40d9-beb8-f2f2534d2472",
+        "module": "task",
+        "name": "4",
+        "currency": "",
+        "targetRef": "node_d1090127-e343-4e10-a687-c680845628c6",
+        "sourceRef": "node_d1090127-e343-4e10-a687-c680845628c6",
+        "gatewayDirection": ""
+    },
+    "node_1aae0848-8dd5-4113-9382-5ce175bf5faf": {
+        "id": "node_1aae0848-8dd5-4113-9382-5ce175bf5faf",
+        "module": "task",
+        "name": "5",
+        "currency": "",
+        "targetRef": "node_7f82aed3-1ea5-4448-8191-5ec86b0f9d02,node_8c6d106c-373c-4fb9-9d68-2df9e2ce66be",
+        "sourceRef": "node_fcd3e294-9fed-42ac-9a33-da6579f45e4e",
+        "gatewayDirection": ""
+    },
+    "node_b19a3c5a-774a-40a0-bc14-37ef1298a0b0": {
+        "id": "node_b19a3c5a-774a-40a0-bc14-37ef1298a0b0",
+        "module": "task",
+        "name": "6",
+        "currency": "",
+        "targetRef": "node_2933d415-bb84-4e47-b642-72ac2fc63a4a",
+        "sourceRef": "node_8c6d106c-373c-4fb9-9d68-2df9e2ce66be",
+        "gatewayDirection": ""
+    },
+    "node_8c6d106c-373c-4fb9-9d68-2df9e2ce66be": {
+        "id": "node_8c6d106c-373c-4fb9-9d68-2df9e2ce66be",
+        "module": "task",
+        "name": "7",
+        "currency": "",
+        "targetRef": "node_b19a3c5a-774a-40a0-bc14-37ef1298a0b0",
+        "sourceRef": "node_1aae0848-8dd5-4113-9382-5ce175bf5faf",
+        "gatewayDirection": ""
+    },
+    "node_7f82aed3-1ea5-4448-8191-5ec86b0f9d02": {
+        "id": "node_7f82aed3-1ea5-4448-8191-5ec86b0f9d02",
+        "module": "task",
+        "name": "8",
+        "currency": "",
+        "targetRef": "node_77e5a5e3-6ff0-496d-aab3-83bb6df560e8",
+        "sourceRef": "node_1aae0848-8dd5-4113-9382-5ce175bf5faf,node_ee55a370-e3d8-4d2e-8fef-efb43702bc71",
+        "gatewayDirection": ""
+    },
+    "node_d1090127-e343-4e10-a687-c680845628c6": {
+        "id": "node_d1090127-e343-4e10-a687-c680845628c6",
+        "module": "task",
+        "name": "9",
+        "currency": "",
+        "targetRef": "node_679ce3a2-f429-40d9-beb8-f2f2534d2472,node_55dea8d2-605f-48cc-bf85-95b67e1fc01f",
+        "sourceRef": "node_679ce3a2-f429-40d9-beb8-f2f2534d2472",
+        "gatewayDirection": ""
+    },
+    "node_2933d415-bb84-4e47-b642-72ac2fc63a4a": {
+        "id": "node_2933d415-bb84-4e47-b642-72ac2fc63a4a",
+        "module": "task",
+        "name": "10",
+        "currency": "",
+        "targetRef": "node_2e81d6be-b104-4de7-820a-a0660006ce9d",
+        "sourceRef": "node_2e81d6be-b104-4de7-820a-a0660006ce9d,node_b19a3c5a-774a-40a0-bc14-37ef1298a0b0",
+        "gatewayDirection": ""
+    }
+}

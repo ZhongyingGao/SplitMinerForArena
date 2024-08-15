@@ -1,0 +1,130 @@
+{
+    "node_8178eddc-197f-4807-b193-c2f8eb42a0d9": {
+        "id": "node_8178eddc-197f-4807-b193-c2f8eb42a0d9",
+        "module": "startEvent",
+        "name": "",
+        "currency": "",
+        "targetRef": "node_cf41e45e-ae74-4010-bc01-f80cd98d6f59",
+        "sourceRef": "",
+        "gatewayDirection": ""
+    },
+    "node_ade4c279-3669-472a-ba67-364e1c36e4da": {
+        "id": "node_ade4c279-3669-472a-ba67-364e1c36e4da",
+        "module": "endEvent",
+        "name": "",
+        "currency": "",
+        "targetRef": "",
+        "sourceRef": "node_cde6fe63-6635-487d-9e29-744e4613df83",
+        "gatewayDirection": ""
+    },
+    "node_b3f2ec60-c14c-4b8f-9d0a-8881c29975cb": {
+        "id": "node_b3f2ec60-c14c-4b8f-9d0a-8881c29975cb",
+        "module": "task",
+        "name": "Assemble",
+        "currency": "",
+        "targetRef": "node_731c340e-b2af-420c-ac9a-051052bb92e5",
+        "sourceRef": "node_79bfec7c-1596-4b62-af13-4976a3047d8a",
+        "gatewayDirection": "",
+        "Expression": "UNIF(291.0,321.0)",
+        "Resource Name(1)": 2
+    },
+    "node_967de5d9-c029-4824-b149-98eae8d74f1d": {
+        "id": "node_967de5d9-c029-4824-b149-98eae8d74f1d",
+        "module": "task",
+        "name": "Cut",
+        "currency": "",
+        "targetRef": "node_cde6fe63-6635-487d-9e29-744e4613df83",
+        "sourceRef": "node_cf607413-aab2-41c4-9ecc-bc7716905923",
+        "gatewayDirection": "",
+        "Expression": "UNIF(206.0,224.0)",
+        "Resource Name(1)": 9
+    },
+    "node_567834d2-81d8-4776-b50c-02a3d67b4b8d": {
+        "id": "node_567834d2-81d8-4776-b50c-02a3d67b4b8d",
+        "module": "task",
+        "name": "Fitting",
+        "currency": "",
+        "targetRef": "node_6ae8628d-ed3a-4bf7-8314-4eaf6901cf03",
+        "sourceRef": "node_225c7caa-302b-461c-a850-3f35d8abf937",
+        "gatewayDirection": "",
+        "Expression": "UNIF(544.0,562.0)",
+        "Resource Name(1)": 6
+    },
+    "node_6ae8628d-ed3a-4bf7-8314-4eaf6901cf03": {
+        "id": "node_6ae8628d-ed3a-4bf7-8314-4eaf6901cf03",
+        "module": "task",
+        "name": "Pouring",
+        "currency": "",
+        "targetRef": "node_cf607413-aab2-41c4-9ecc-bc7716905923",
+        "sourceRef": "node_567834d2-81d8-4776-b50c-02a3d67b4b8d",
+        "gatewayDirection": "",
+        "Expression": "UNIF(121.0,139.0)",
+        "Resource Name(1)": 7
+    },
+    "node_cde6fe63-6635-487d-9e29-744e4613df83": {
+        "id": "node_cde6fe63-6635-487d-9e29-744e4613df83",
+        "module": "task",
+        "name": "Polish",
+        "currency": "",
+        "targetRef": "node_ade4c279-3669-472a-ba67-364e1c36e4da",
+        "sourceRef": "node_967de5d9-c029-4824-b149-98eae8d74f1d",
+        "gatewayDirection": "",
+        "Expression": "UNIF(181.0,210.0)",
+        "Resource Name(1)": 10
+    },
+    "node_cf607413-aab2-41c4-9ecc-bc7716905923": {
+        "id": "node_cf607413-aab2-41c4-9ecc-bc7716905923",
+        "module": "task",
+        "name": "Clean",
+        "currency": "",
+        "targetRef": "node_967de5d9-c029-4824-b149-98eae8d74f1d",
+        "sourceRef": "node_6ae8628d-ed3a-4bf7-8314-4eaf6901cf03",
+        "gatewayDirection": "",
+        "Expression": "UNIF(353.0,379.0)",
+        "Resource Name(1)": 8
+    },
+    "node_cf41e45e-ae74-4010-bc01-f80cd98d6f59": {
+        "id": "node_cf41e45e-ae74-4010-bc01-f80cd98d6f59",
+        "module": "task",
+        "name": "Mould",
+        "currency": "",
+        "targetRef": "node_79bfec7c-1596-4b62-af13-4976a3047d8a",
+        "sourceRef": "node_8178eddc-197f-4807-b193-c2f8eb42a0d9",
+        "gatewayDirection": "",
+        "Expression": "UNIF(220.0,264.0)",
+        "Resource Name(1)": 1
+    },
+    "node_225c7caa-302b-461c-a850-3f35d8abf937": {
+        "id": "node_225c7caa-302b-461c-a850-3f35d8abf937",
+        "module": "task",
+        "name": "Grout",
+        "currency": "",
+        "targetRef": "node_567834d2-81d8-4776-b50c-02a3d67b4b8d",
+        "sourceRef": "node_731c340e-b2af-420c-ac9a-051052bb92e5",
+        "gatewayDirection": "",
+        "Expression": "UNIF(901.0,931.0000000000001)",
+        "Resource Name(1)": 5
+    },
+    "node_731c340e-b2af-420c-ac9a-051052bb92e5": {
+        "id": "node_731c340e-b2af-420c-ac9a-051052bb92e5",
+        "module": "task",
+        "name": "Debubble",
+        "currency": "",
+        "targetRef": "node_225c7caa-302b-461c-a850-3f35d8abf937",
+        "sourceRef": "node_b3f2ec60-c14c-4b8f-9d0a-8881c29975cb",
+        "gatewayDirection": "",
+        "Expression": "UNIF(266.0,286.0)",
+        "Resource Name(1)": 4
+    },
+    "node_79bfec7c-1596-4b62-af13-4976a3047d8a": {
+        "id": "node_79bfec7c-1596-4b62-af13-4976a3047d8a",
+        "module": "task",
+        "name": "Blend",
+        "currency": "",
+        "targetRef": "node_b3f2ec60-c14c-4b8f-9d0a-8881c29975cb",
+        "sourceRef": "node_cf41e45e-ae74-4010-bc01-f80cd98d6f59",
+        "gatewayDirection": "",
+        "Expression": "UNIF(339.0,362.0)",
+        "Resource Name(1)": 3
+    }
+}
