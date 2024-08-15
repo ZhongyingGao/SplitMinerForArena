@@ -1,0 +1,130 @@
+{
+    "node_344060a0-a5ee-4139-82e0-f748a1e16d97": {
+        "id": "node_344060a0-a5ee-4139-82e0-f748a1e16d97",
+        "module": "startEvent",
+        "name": "",
+        "currency": "",
+        "targetRef": "node_87856a39-2451-490d-98cd-ef3823a07183",
+        "sourceRef": "",
+        "gatewayDirection": ""
+    },
+    "node_0e5876ef-f42b-4018-8a40-48c89daa3bcb": {
+        "id": "node_0e5876ef-f42b-4018-8a40-48c89daa3bcb",
+        "module": "endEvent",
+        "name": "",
+        "currency": "",
+        "targetRef": "",
+        "sourceRef": "node_6dde368d-45b2-490e-a8f8-9befb4ccf615",
+        "gatewayDirection": ""
+    },
+    "node_60a1444a-6ec1-451e-90be-d4e70366f7cb": {
+        "id": "node_60a1444a-6ec1-451e-90be-d4e70366f7cb",
+        "module": "task",
+        "name": "Fitting",
+        "currency": "",
+        "targetRef": "node_4cbb8feb-8c19-4f02-b44d-be4e2b3cb011",
+        "sourceRef": "node_645ae1da-888a-40be-8388-729c0c3e1391",
+        "gatewayDirection": "",
+        "Expression": "UNIF(544.0,561.0)",
+        "Resource Name(1)": 6
+    },
+    "node_6dde368d-45b2-490e-a8f8-9befb4ccf615": {
+        "id": "node_6dde368d-45b2-490e-a8f8-9befb4ccf615",
+        "module": "task",
+        "name": "Polish",
+        "currency": "",
+        "targetRef": "node_0e5876ef-f42b-4018-8a40-48c89daa3bcb",
+        "sourceRef": "node_b6ada442-e494-4307-bef4-a7d4d2e98cbc",
+        "gatewayDirection": "",
+        "Expression": "UNIF(182.0,206.0)",
+        "Resource Name(1)": 10
+    },
+    "node_b6ada442-e494-4307-bef4-a7d4d2e98cbc": {
+        "id": "node_b6ada442-e494-4307-bef4-a7d4d2e98cbc",
+        "module": "task",
+        "name": "Cut",
+        "currency": "",
+        "targetRef": "node_6dde368d-45b2-490e-a8f8-9befb4ccf615",
+        "sourceRef": "node_41b653f9-5858-45b5-a3b7-ef4a0c9856e4",
+        "gatewayDirection": "",
+        "Expression": "UNIF(208.0,224.0)",
+        "Resource Name(1)": 9
+    },
+    "node_41b653f9-5858-45b5-a3b7-ef4a0c9856e4": {
+        "id": "node_41b653f9-5858-45b5-a3b7-ef4a0c9856e4",
+        "module": "task",
+        "name": "Clean",
+        "currency": "",
+        "targetRef": "node_b6ada442-e494-4307-bef4-a7d4d2e98cbc",
+        "sourceRef": "node_4cbb8feb-8c19-4f02-b44d-be4e2b3cb011",
+        "gatewayDirection": "",
+        "Expression": "UNIF(351.0,382.0)",
+        "Resource Name(1)": 8
+    },
+    "node_9720ca05-60fe-4ad7-984a-64a778e4bad7": {
+        "id": "node_9720ca05-60fe-4ad7-984a-64a778e4bad7",
+        "module": "task",
+        "name": "Assemble",
+        "currency": "",
+        "targetRef": "node_76b31125-f240-4113-8511-4ec8eca78a04",
+        "sourceRef": "node_87856a39-2451-490d-98cd-ef3823a07183",
+        "gatewayDirection": "",
+        "Expression": "UNIF(291.0,321.0)",
+        "Resource Name(1)": 2
+    },
+    "node_645ae1da-888a-40be-8388-729c0c3e1391": {
+        "id": "node_645ae1da-888a-40be-8388-729c0c3e1391",
+        "module": "task",
+        "name": "Grout",
+        "currency": "",
+        "targetRef": "node_60a1444a-6ec1-451e-90be-d4e70366f7cb",
+        "sourceRef": "node_a40d041c-e33e-42fc-aed1-852332eb15b1",
+        "gatewayDirection": "",
+        "Expression": "UNIF(899.0,930.0000000000001)",
+        "Resource Name(1)": 5
+    },
+    "node_76b31125-f240-4113-8511-4ec8eca78a04": {
+        "id": "node_76b31125-f240-4113-8511-4ec8eca78a04",
+        "module": "task",
+        "name": "Blend",
+        "currency": "",
+        "targetRef": "node_a40d041c-e33e-42fc-aed1-852332eb15b1",
+        "sourceRef": "node_9720ca05-60fe-4ad7-984a-64a778e4bad7",
+        "gatewayDirection": "",
+        "Expression": "UNIF(339.0,362.0)",
+        "Resource Name(1)": 3
+    },
+    "node_87856a39-2451-490d-98cd-ef3823a07183": {
+        "id": "node_87856a39-2451-490d-98cd-ef3823a07183",
+        "module": "task",
+        "name": "Mould",
+        "currency": "",
+        "targetRef": "node_9720ca05-60fe-4ad7-984a-64a778e4bad7",
+        "sourceRef": "node_344060a0-a5ee-4139-82e0-f748a1e16d97",
+        "gatewayDirection": "",
+        "Expression": "UNIF(220.0,265.0)",
+        "Resource Name(1)": 1
+    },
+    "node_4cbb8feb-8c19-4f02-b44d-be4e2b3cb011": {
+        "id": "node_4cbb8feb-8c19-4f02-b44d-be4e2b3cb011",
+        "module": "task",
+        "name": "Pouring",
+        "currency": "",
+        "targetRef": "node_41b653f9-5858-45b5-a3b7-ef4a0c9856e4",
+        "sourceRef": "node_60a1444a-6ec1-451e-90be-d4e70366f7cb",
+        "gatewayDirection": "",
+        "Expression": "UNIF(123.0,136.0)",
+        "Resource Name(1)": 7
+    },
+    "node_a40d041c-e33e-42fc-aed1-852332eb15b1": {
+        "id": "node_a40d041c-e33e-42fc-aed1-852332eb15b1",
+        "module": "task",
+        "name": "Debubble",
+        "currency": "",
+        "targetRef": "node_645ae1da-888a-40be-8388-729c0c3e1391",
+        "sourceRef": "node_76b31125-f240-4113-8511-4ec8eca78a04",
+        "gatewayDirection": "",
+        "Expression": "UNIF(266.0,285.0)",
+        "Resource Name(1)": 4
+    }
+}

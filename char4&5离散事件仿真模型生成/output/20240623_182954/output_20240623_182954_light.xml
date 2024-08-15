@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<ns0:definitions xmlns:ns0="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.omg.org/bpmn20" exporter="ProM. http://www.promtools.org/prom6" exporterVersion="6.3" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd">
+  <startEvent id="node_ff2aa217-0be3-4791-8867-eae1fe0ee588" name="" targetRef="node_d6d863f7-9532-41f5-a627-1319a769be11"/>
+  <endEvent id="node_351cbd0f-2d73-4b62-91b9-516e110809bd" name="" sourceRef="node_5bb28b21-68e6-496f-8222-7155bebde3ee"/>
+  <task id="node_b788ed0e-148e-49d4-a600-657bfaaa415a" name="Fitting" targetRef="node_3ad9d674-5345-4157-9ec1-5aa228cc537b" sourceRef="node_a7b9acf3-60fd-49be-b173-b4ba073a0c48"/>
+  <task id="node_d6d863f7-9532-41f5-a627-1319a769be11" name="Mould" sourceRef="node_ff2aa217-0be3-4791-8867-eae1fe0ee588" targetRef="node_4288382d-9bd3-4cc7-9762-831905db6b1a"/>
+  <task id="node_e301d34b-621a-4242-b7bf-1ee43c1a14c4" name="Blend" sourceRef="node_4288382d-9bd3-4cc7-9762-831905db6b1a" targetRef="node_8783162a-e6fa-4bc1-b8bc-acee5bd0fd60"/>
+  <task id="node_8783162a-e6fa-4bc1-b8bc-acee5bd0fd60" name="Debubble" targetRef="node_a7b9acf3-60fd-49be-b173-b4ba073a0c48" sourceRef="node_e301d34b-621a-4242-b7bf-1ee43c1a14c4"/>
+  <task id="node_5bb28b21-68e6-496f-8222-7155bebde3ee" name="Polish" targetRef="node_351cbd0f-2d73-4b62-91b9-516e110809bd" sourceRef="node_d568ecff-8e83-4dcb-96d2-0da91727a6b3"/>
+  <task id="node_3ad9d674-5345-4157-9ec1-5aa228cc537b" name="Pouring" targetRef="node_73e42741-1873-4a2f-9b0a-91d163708861" sourceRef="node_b788ed0e-148e-49d4-a600-657bfaaa415a"/>
+  <task id="node_4288382d-9bd3-4cc7-9762-831905db6b1a" name="Assemble" targetRef="node_e301d34b-621a-4242-b7bf-1ee43c1a14c4" sourceRef="node_d6d863f7-9532-41f5-a627-1319a769be11"/>
+  <task id="node_d568ecff-8e83-4dcb-96d2-0da91727a6b3" name="Cut" sourceRef="node_73e42741-1873-4a2f-9b0a-91d163708861" targetRef="node_5bb28b21-68e6-496f-8222-7155bebde3ee"/>
+  <task id="node_73e42741-1873-4a2f-9b0a-91d163708861" name="Clean" sourceRef="node_3ad9d674-5345-4157-9ec1-5aa228cc537b" targetRef="node_d568ecff-8e83-4dcb-96d2-0da91727a6b3"/>
+  <task id="node_a7b9acf3-60fd-49be-b173-b4ba073a0c48" name="Grout" sourceRef="node_8783162a-e6fa-4bc1-b8bc-acee5bd0fd60" targetRef="node_b788ed0e-148e-49d4-a600-657bfaaa415a"/>
+</ns0:definitions>

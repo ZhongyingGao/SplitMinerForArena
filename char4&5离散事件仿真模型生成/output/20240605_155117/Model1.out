@@ -1,0 +1,113 @@
+
+                                      ARENA Simulation Results
+                                                 123
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 6/ 5/2024
+Analyst: Rockwell Automation                                         Model revision date: 6/ 5/2024
+
+Replication ended at time      : 48.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .98384     (Insuf)    .93639     1.0375        306    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        306    
+Entity 1.WaitTime                           5.5634     (Insuf)    .00000     10.436        306    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        306    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        306    
+Entity 1.TotalTime                          6.5473     (Insuf)    .98417     11.412        306    
+Mould.Queue.WaitingTime                     .03447     .01053     .00000     .35367        385    
+Clean.Queue.WaitingTime                     .00000     (Insuf)    .00000     .00000        307    
+Cut.Queue.WaitingTime                       .00000     (Insuf)    .00000     .00000        306    
+Pouring.Queue.WaitingTime                   .00000     (Insuf)    .00000     .00000        307    
+Assemble.Queue.WaitingTime                  .04860     .01960     .00000     .32071        384    
+Blend.Queue.WaitingTime                     .06792     (Corr)     .00000     .37927        383    
+Grout.Queue.WaitingTime                     1.5836     (Corr)     .00000     2.8952        372    
+Debubble.Queue.WaitingTime                  2.1088E-05 4.0761E-05 .00000     .00722        382    
+Polish.Queue.WaitingTime                    .00000     (Insuf)    .00000     .00000        306    
+Fitting.Queue.WaitingTime                   3.7796     (Insuf)    .00000     7.9350        308    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                50.168     (Corr)     .00000     80.000     79.000    
+Resource 1.NumberBusy                       .53554     .05204     .00000     1.0000     1.0000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .53554     .05204     .00000     1.0000     1.0000    
+Resource 2.NumberBusy                       .68085     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .68085     (Insuf)    .00000     1.0000     1.0000    
+Resource 3.NumberBusy                       .77045     (Insuf)    .00000     1.0000     1.0000    
+Resource 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 3.Utilization                      .77045     (Insuf)    .00000     1.0000     1.0000    
+Resource 4.NumberBusy                       .60895     .05087     .00000     1.0000     1.0000    
+Resource 4.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 4.Utilization                      .60895     .05087     .00000     1.0000     1.0000    
+Resource 5.NumberBusy                       1.9616     (Insuf)    .00000     2.0000     2.0000    
+Resource 5.NumberScheduled                  2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Resource 5.Utilization                      .98081     (Insuf)    .00000     1.0000     1.0000    
+Resource 6.NumberBusy                       .98455     (Insuf)    .00000     1.0000     1.0000    
+Resource 6.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 6.Utilization                      .98455     (Insuf)    .00000     1.0000     1.0000    
+Resource 7.NumberBusy                       .23042     (Corr)     .00000     1.0000     .00000    
+Resource 7.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 7.Utilization                      .23042     (Corr)     .00000     1.0000     .00000    
+Resource 8.NumberBusy                       .65009     (Corr)     .00000     1.0000     1.0000    
+Resource 8.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 8.Utilization                      .65009     (Corr)     .00000     1.0000     1.0000    
+Resource 9.NumberBusy                       .38188     (Corr)     .00000     1.0000     .00000    
+Resource 9.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 9.Utilization                      .38188     (Corr)     .00000     1.0000     .00000    
+Resource 10.NumberBusy                      .34311     (Corr)     .00000     1.0000     .00000    
+Resource 10.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 10.Utilization                     .34311     (Corr)     .00000     1.0000     .00000    
+Mould.Queue.NumberInQueue                   .27648     .10621     .00000     6.0000     .00000    
+Clean.Queue.NumberInQueue                   .00000     (Insuf)    .00000     .00000     .00000    
+Cut.Queue.NumberInQueue                     .00000     (Insuf)    .00000     .00000     .00000    
+Pouring.Queue.NumberInQueue                 .00000     (Insuf)    .00000     .00000     .00000    
+Assemble.Queue.NumberInQueue                .38883     .16667     .00000     4.0000     .00000    
+Blend.Queue.NumberInQueue                   .54196     .27704     .00000     4.0000     .00000    
+Grout.Queue.NumberInQueue                   12.390     (Corr)     .00000     23.000     9.0000    
+Debubble.Queue.NumberInQueue                1.6782E-04 (Insuf)    .00000     1.0000     .00000    
+Polish.Queue.NumberInQueue                  .00000     (Insuf)    .00000     .00000     .00000    
+Fitting.Queue.NumberInQueue                 29.423     (Corr)     .00000     63.000     62.000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           385.00    
+Entity 1.NumberOut                          306.00    
+Resource 1.NumberSeized                     385.00    
+Resource 1.ScheduledUtilization             .53554    
+Resource 2.NumberSeized                     384.00    
+Resource 2.ScheduledUtilization             .68085    
+Resource 3.NumberSeized                     383.00    
+Resource 3.ScheduledUtilization             .77045    
+Resource 4.NumberSeized                     382.00    
+Resource 4.ScheduledUtilization             .60895    
+Resource 5.NumberSeized                     372.00    
+Resource 5.ScheduledUtilization             .98081    
+Resource 6.NumberSeized                     308.00    
+Resource 6.ScheduledUtilization             .98455    
+Resource 7.NumberSeized                     307.00    
+Resource 7.ScheduledUtilization             .23042    
+Resource 8.NumberSeized                     307.00    
+Resource 8.ScheduledUtilization             .65009    
+Resource 9.NumberSeized                     306.00    
+Resource 9.ScheduledUtilization             .38188    
+Resource 10.NumberSeized                    306.00    
+Resource 10.ScheduledUtilization            .34311    
+System.NumberOut                            306.00    
+
+
+Simulation run time: 0.00 minutes.
+Simulation run complete.

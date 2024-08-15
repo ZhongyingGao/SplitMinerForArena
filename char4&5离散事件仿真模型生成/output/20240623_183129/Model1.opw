@@ -1,0 +1,34 @@
+[RESOURCES]
+Resource 1
+Resource 2
+Resource 3
+Resource 4
+Resource 5
+Resource 6
+Resource 7
+Resource 8
+Resource 9
+Resource 10
+[VARIABLES]
+Clean.NumberIn
+Blend.NumberOut
+Grout.NumberOut
+Assemble.NumberIn
+Cut.NumberIn
+Pouring.NumberIn
+Clean.NumberOut
+Debubble.NumberIn
+Dispose 1.NumberOut
+Fitting.NumberIn
+Polish.NumberIn
+Pouring.NumberOut
+Assemble.NumberOut
+Create 1.NumberOut
+Grout.NumberIn
+Blend.NumberIn
+Mould.NumberIn
+Debubble.NumberOut
+Polish.NumberOut
+Cut.NumberOut
+Mould.NumberOut
+Fitting.NumberOut

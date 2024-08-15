@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<ns0:definitions xmlns:ns0="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.omg.org/bpmn20" exporter="ProM. http://www.promtools.org/prom6" exporterVersion="6.3" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd">
+  <startEvent id="node_344060a0-a5ee-4139-82e0-f748a1e16d97" name="" targetRef="node_87856a39-2451-490d-98cd-ef3823a07183"/>
+  <endEvent id="node_0e5876ef-f42b-4018-8a40-48c89daa3bcb" name="" sourceRef="node_6dde368d-45b2-490e-a8f8-9befb4ccf615"/>
+  <task id="node_60a1444a-6ec1-451e-90be-d4e70366f7cb" name="Fitting" sourceRef="node_645ae1da-888a-40be-8388-729c0c3e1391" targetRef="node_4cbb8feb-8c19-4f02-b44d-be4e2b3cb011"/>
+  <task id="node_6dde368d-45b2-490e-a8f8-9befb4ccf615" name="Polish" sourceRef="node_b6ada442-e494-4307-bef4-a7d4d2e98cbc" targetRef="node_0e5876ef-f42b-4018-8a40-48c89daa3bcb"/>
+  <task id="node_b6ada442-e494-4307-bef4-a7d4d2e98cbc" name="Cut" sourceRef="node_41b653f9-5858-45b5-a3b7-ef4a0c9856e4" targetRef="node_6dde368d-45b2-490e-a8f8-9befb4ccf615"/>
+  <task id="node_41b653f9-5858-45b5-a3b7-ef4a0c9856e4" name="Clean" targetRef="node_b6ada442-e494-4307-bef4-a7d4d2e98cbc" sourceRef="node_4cbb8feb-8c19-4f02-b44d-be4e2b3cb011"/>
+  <task id="node_9720ca05-60fe-4ad7-984a-64a778e4bad7" name="Assemble" targetRef="node_76b31125-f240-4113-8511-4ec8eca78a04" sourceRef="node_87856a39-2451-490d-98cd-ef3823a07183"/>
+  <task id="node_645ae1da-888a-40be-8388-729c0c3e1391" name="Grout" targetRef="node_60a1444a-6ec1-451e-90be-d4e70366f7cb" sourceRef="node_a40d041c-e33e-42fc-aed1-852332eb15b1"/>
+  <task id="node_76b31125-f240-4113-8511-4ec8eca78a04" name="Blend" sourceRef="node_9720ca05-60fe-4ad7-984a-64a778e4bad7" targetRef="node_a40d041c-e33e-42fc-aed1-852332eb15b1"/>
+  <task id="node_87856a39-2451-490d-98cd-ef3823a07183" name="Mould" sourceRef="node_344060a0-a5ee-4139-82e0-f748a1e16d97" targetRef="node_9720ca05-60fe-4ad7-984a-64a778e4bad7"/>
+  <task id="node_4cbb8feb-8c19-4f02-b44d-be4e2b3cb011" name="Pouring" targetRef="node_41b653f9-5858-45b5-a3b7-ef4a0c9856e4" sourceRef="node_60a1444a-6ec1-451e-90be-d4e70366f7cb"/>
+  <task id="node_a40d041c-e33e-42fc-aed1-852332eb15b1" name="Debubble" targetRef="node_645ae1da-888a-40be-8388-729c0c3e1391" sourceRef="node_76b31125-f240-4113-8511-4ec8eca78a04"/>
+</ns0:definitions>

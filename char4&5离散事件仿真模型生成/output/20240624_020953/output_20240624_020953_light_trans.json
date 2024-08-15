@@ -1,0 +1,110 @@
+{
+    "node_8178eddc-197f-4807-b193-c2f8eb42a0d9": {
+        "id": "node_8178eddc-197f-4807-b193-c2f8eb42a0d9",
+        "module": "startEvent",
+        "name": "",
+        "currency": "",
+        "targetRef": "node_cf41e45e-ae74-4010-bc01-f80cd98d6f59",
+        "sourceRef": "",
+        "gatewayDirection": ""
+    },
+    "node_ade4c279-3669-472a-ba67-364e1c36e4da": {
+        "id": "node_ade4c279-3669-472a-ba67-364e1c36e4da",
+        "module": "endEvent",
+        "name": "",
+        "currency": "",
+        "targetRef": "",
+        "sourceRef": "node_cde6fe63-6635-487d-9e29-744e4613df83",
+        "gatewayDirection": ""
+    },
+    "node_b3f2ec60-c14c-4b8f-9d0a-8881c29975cb": {
+        "id": "node_b3f2ec60-c14c-4b8f-9d0a-8881c29975cb",
+        "module": "task",
+        "name": "Assemble",
+        "currency": "",
+        "targetRef": "node_731c340e-b2af-420c-ac9a-051052bb92e5",
+        "sourceRef": "node_79bfec7c-1596-4b62-af13-4976a3047d8a",
+        "gatewayDirection": ""
+    },
+    "node_967de5d9-c029-4824-b149-98eae8d74f1d": {
+        "id": "node_967de5d9-c029-4824-b149-98eae8d74f1d",
+        "module": "task",
+        "name": "Cut",
+        "currency": "",
+        "targetRef": "node_cde6fe63-6635-487d-9e29-744e4613df83",
+        "sourceRef": "node_cf607413-aab2-41c4-9ecc-bc7716905923",
+        "gatewayDirection": ""
+    },
+    "node_567834d2-81d8-4776-b50c-02a3d67b4b8d": {
+        "id": "node_567834d2-81d8-4776-b50c-02a3d67b4b8d",
+        "module": "task",
+        "name": "Fitting",
+        "currency": "",
+        "targetRef": "node_6ae8628d-ed3a-4bf7-8314-4eaf6901cf03",
+        "sourceRef": "node_225c7caa-302b-461c-a850-3f35d8abf937",
+        "gatewayDirection": ""
+    },
+    "node_6ae8628d-ed3a-4bf7-8314-4eaf6901cf03": {
+        "id": "node_6ae8628d-ed3a-4bf7-8314-4eaf6901cf03",
+        "module": "task",
+        "name": "Pouring",
+        "currency": "",
+        "targetRef": "node_cf607413-aab2-41c4-9ecc-bc7716905923",
+        "sourceRef": "node_567834d2-81d8-4776-b50c-02a3d67b4b8d",
+        "gatewayDirection": ""
+    },
+    "node_cde6fe63-6635-487d-9e29-744e4613df83": {
+        "id": "node_cde6fe63-6635-487d-9e29-744e4613df83",
+        "module": "task",
+        "name": "Polish",
+        "currency": "",
+        "targetRef": "node_ade4c279-3669-472a-ba67-364e1c36e4da",
+        "sourceRef": "node_967de5d9-c029-4824-b149-98eae8d74f1d",
+        "gatewayDirection": ""
+    },
+    "node_cf607413-aab2-41c4-9ecc-bc7716905923": {
+        "id": "node_cf607413-aab2-41c4-9ecc-bc7716905923",
+        "module": "task",
+        "name": "Clean",
+        "currency": "",
+        "targetRef": "node_967de5d9-c029-4824-b149-98eae8d74f1d",
+        "sourceRef": "node_6ae8628d-ed3a-4bf7-8314-4eaf6901cf03",
+        "gatewayDirection": ""
+    },
+    "node_cf41e45e-ae74-4010-bc01-f80cd98d6f59": {
+        "id": "node_cf41e45e-ae74-4010-bc01-f80cd98d6f59",
+        "module": "task",
+        "name": "Mould",
+        "currency": "",
+        "targetRef": "node_79bfec7c-1596-4b62-af13-4976a3047d8a",
+        "sourceRef": "node_8178eddc-197f-4807-b193-c2f8eb42a0d9",
+        "gatewayDirection": ""
+    },
+    "node_225c7caa-302b-461c-a850-3f35d8abf937": {
+        "id": "node_225c7caa-302b-461c-a850-3f35d8abf937",
+        "module": "task",
+        "name": "Grout",
+        "currency": "",
+        "targetRef": "node_567834d2-81d8-4776-b50c-02a3d67b4b8d",
+        "sourceRef": "node_731c340e-b2af-420c-ac9a-051052bb92e5",
+        "gatewayDirection": ""
+    },
+    "node_731c340e-b2af-420c-ac9a-051052bb92e5": {
+        "id": "node_731c340e-b2af-420c-ac9a-051052bb92e5",
+        "module": "task",
+        "name": "Debubble",
+        "currency": "",
+        "targetRef": "node_225c7caa-302b-461c-a850-3f35d8abf937",
+        "sourceRef": "node_b3f2ec60-c14c-4b8f-9d0a-8881c29975cb",
+        "gatewayDirection": ""
+    },
+    "node_79bfec7c-1596-4b62-af13-4976a3047d8a": {
+        "id": "node_79bfec7c-1596-4b62-af13-4976a3047d8a",
+        "module": "task",
+        "name": "Blend",
+        "currency": "",
+        "targetRef": "node_b3f2ec60-c14c-4b8f-9d0a-8881c29975cb",
+        "sourceRef": "node_cf41e45e-ae74-4010-bc01-f80cd98d6f59",
+        "gatewayDirection": ""
+    }
+}

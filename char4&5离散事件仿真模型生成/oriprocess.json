@@ -1,0 +1,130 @@
+{
+    "node_bc32504a-e80b-4736-82ab-3276a9f006f8": {
+        "id": "node_bc32504a-e80b-4736-82ab-3276a9f006f8",
+        "module": "startEvent",
+        "name": "",
+        "currency": "",
+        "targetRef": "node_a63e5422-f2b3-460a-81e1-aacad9ec7d32",
+        "sourceRef": "",
+        "gatewayDirection": ""
+    },
+    "node_1e3993ec-601e-4b93-a9db-3d4a0fa188c6": {
+        "id": "node_1e3993ec-601e-4b93-a9db-3d4a0fa188c6",
+        "module": "endEvent",
+        "name": "",
+        "currency": "",
+        "targetRef": "",
+        "sourceRef": "node_0d35d96d-fbe5-4c9c-b7f9-bb3dffdebe3d",
+        "gatewayDirection": ""
+    },
+    "node_beb72297-73de-4916-a3a2-043f636212f8": {
+        "id": "node_beb72297-73de-4916-a3a2-043f636212f8",
+        "module": "task",
+        "name": "Blend",
+        "currency": "",
+        "targetRef": "node_3dbd9f2f-620e-4f87-b07e-1f0f2314e9b9",
+        "sourceRef": "node_ae3afa36-2fdb-4f03-8857-d927bf469b4d",
+        "gatewayDirection": "",
+        "Expression": "POIS(350.33003300330034)",
+        "Resource Name(1)": 3
+    },
+    "node_5deccf0d-496f-4b2b-868b-c95851694929": {
+        "id": "node_5deccf0d-496f-4b2b-868b-c95851694929",
+        "module": "task",
+        "name": "Cut",
+        "currency": "",
+        "targetRef": "node_0d35d96d-fbe5-4c9c-b7f9-bb3dffdebe3d",
+        "sourceRef": "node_142eca06-60b0-433d-a59b-1ba34bb54c10",
+        "gatewayDirection": "",
+        "Expression": "POIS(215.9851590106007)",
+        "Resource Name(1)": 9
+    },
+    "node_3dbd9f2f-620e-4f87-b07e-1f0f2314e9b9": {
+        "id": "node_3dbd9f2f-620e-4f87-b07e-1f0f2314e9b9",
+        "module": "task",
+        "name": "Debubble",
+        "currency": "",
+        "targetRef": "node_2acf98de-70cf-4b21-9082-78bb0fb61d71",
+        "sourceRef": "node_beb72297-73de-4916-a3a2-043f636212f8",
+        "gatewayDirection": "",
+        "Expression": "POIS(276.0045837917125)",
+        "Resource Name(1)": 4
+    },
+    "node_42bdf0b4-20b9-4ac0-a8af-1b3f477259a8": {
+        "id": "node_42bdf0b4-20b9-4ac0-a8af-1b3f477259a8",
+        "module": "task",
+        "name": "Fitting",
+        "currency": "",
+        "targetRef": "node_161d986c-cb19-4d4b-9cb0-915f16e3e637",
+        "sourceRef": "node_2acf98de-70cf-4b21-9082-78bb0fb61d71",
+        "gatewayDirection": "",
+        "Expression": "POIS(552.7194346289753)",
+        "Resource Name(1)": 6
+    },
+    "node_0d35d96d-fbe5-4c9c-b7f9-bb3dffdebe3d": {
+        "id": "node_0d35d96d-fbe5-4c9c-b7f9-bb3dffdebe3d",
+        "module": "task",
+        "name": "Polish",
+        "currency": "",
+        "targetRef": "node_1e3993ec-601e-4b93-a9db-3d4a0fa188c6",
+        "sourceRef": "node_5deccf0d-496f-4b2b-868b-c95851694929",
+        "gatewayDirection": "",
+        "Expression": "POIS(195.02085542594557)",
+        "Resource Name(1)": 10
+    },
+    "node_ae3afa36-2fdb-4f03-8857-d927bf469b4d": {
+        "id": "node_ae3afa36-2fdb-4f03-8857-d927bf469b4d",
+        "module": "task",
+        "name": "Assemble",
+        "currency": "",
+        "targetRef": "node_beb72297-73de-4916-a3a2-043f636212f8",
+        "sourceRef": "node_a63e5422-f2b3-460a-81e1-aacad9ec7d32",
+        "gatewayDirection": "",
+        "Expression": "POIS(306.1921525485882)",
+        "Resource Name(1)": 2
+    },
+    "node_142eca06-60b0-433d-a59b-1ba34bb54c10": {
+        "id": "node_142eca06-60b0-433d-a59b-1ba34bb54c10",
+        "module": "task",
+        "name": "Clean",
+        "currency": "",
+        "targetRef": "node_5deccf0d-496f-4b2b-868b-c95851694929",
+        "sourceRef": "node_161d986c-cb19-4d4b-9cb0-915f16e3e637",
+        "gatewayDirection": "",
+        "Expression": "POIS(366.6095406360424)",
+        "Resource Name(1)": 8
+    },
+    "node_a63e5422-f2b3-460a-81e1-aacad9ec7d32": {
+        "id": "node_a63e5422-f2b3-460a-81e1-aacad9ec7d32",
+        "module": "task",
+        "name": "Mould",
+        "currency": "",
+        "targetRef": "node_ae3afa36-2fdb-4f03-8857-d927bf469b4d",
+        "sourceRef": "node_bc32504a-e80b-4736-82ab-3276a9f006f8",
+        "gatewayDirection": "",
+        "Expression": "POIS(241.2929422548121)",
+        "Resource Name(1)": 1
+    },
+    "node_2acf98de-70cf-4b21-9082-78bb0fb61d71": {
+        "id": "node_2acf98de-70cf-4b21-9082-78bb0fb61d71",
+        "module": "task",
+        "name": "Grout",
+        "currency": "",
+        "targetRef": "node_42bdf0b4-20b9-4ac0-a8af-1b3f477259a8",
+        "sourceRef": "node_3dbd9f2f-620e-4f87-b07e-1f0f2314e9b9",
+        "gatewayDirection": "",
+        "Expression": "POIS(914.9992935358531)",
+        "Resource Name(1)": 5
+    },
+    "node_161d986c-cb19-4d4b-9cb0-915f16e3e637": {
+        "id": "node_161d986c-cb19-4d4b-9cb0-915f16e3e637",
+        "module": "task",
+        "name": "Pouring",
+        "currency": "",
+        "targetRef": "node_142eca06-60b0-433d-a59b-1ba34bb54c10",
+        "sourceRef": "node_42bdf0b4-20b9-4ac0-a8af-1b3f477259a8",
+        "gatewayDirection": "",
+        "Expression": "POIS(129.59717314487634)",
+        "Resource Name(1)": 7
+    }
+}

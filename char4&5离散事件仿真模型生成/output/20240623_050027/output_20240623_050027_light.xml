@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<ns0:definitions xmlns:ns0="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.omg.org/bpmn20" exporter="ProM. http://www.promtools.org/prom6" exporterVersion="6.3" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd">
+  <startEvent id="node_ee55a370-e3d8-4d2e-8fef-efb43702bc71" name="0" targetRef="node_7f82aed3-1ea5-4448-8191-5ec86b0f9d02"/>
+  <endEvent id="node_55dea8d2-605f-48cc-bf85-95b67e1fc01f" name="-1" sourceRef="node_d1090127-e343-4e10-a687-c680845628c6"/>
+  <task id="node_77e5a5e3-6ff0-496d-aab3-83bb6df560e8" name="1" targetRef="node_fcd3e294-9fed-42ac-9a33-da6579f45e4e" sourceRef="node_7f82aed3-1ea5-4448-8191-5ec86b0f9d02">
+    <ns0:standardLoopCharacteristics testBefore="false"/>
+  </task>
+  <task id="node_fcd3e294-9fed-42ac-9a33-da6579f45e4e" name="2" sourceRef="node_77e5a5e3-6ff0-496d-aab3-83bb6df560e8" targetRef="node_1aae0848-8dd5-4113-9382-5ce175bf5faf">
+    <ns0:standardLoopCharacteristics testBefore="false"/>
+  </task>
+  <task id="node_2e81d6be-b104-4de7-820a-a0660006ce9d" name="3" targetRef="node_2933d415-bb84-4e47-b642-72ac2fc63a4a" sourceRef="node_2933d415-bb84-4e47-b642-72ac2fc63a4a">
+    <ns0:standardLoopCharacteristics testBefore="false"/>
+  </task>
+  <task id="node_679ce3a2-f429-40d9-beb8-f2f2534d2472" name="4" targetRef="node_d1090127-e343-4e10-a687-c680845628c6" sourceRef="node_d1090127-e343-4e10-a687-c680845628c6">
+    <ns0:standardLoopCharacteristics testBefore="false"/>
+  </task>
+  <task id="node_1aae0848-8dd5-4113-9382-5ce175bf5faf" name="5" targetRef="node_7f82aed3-1ea5-4448-8191-5ec86b0f9d02,node_8c6d106c-373c-4fb9-9d68-2df9e2ce66be" sourceRef="node_fcd3e294-9fed-42ac-9a33-da6579f45e4e">
+    <ns0:standardLoopCharacteristics testBefore="false"/>
+  </task>
+  <task id="node_b19a3c5a-774a-40a0-bc14-37ef1298a0b0" name="6" targetRef="node_2933d415-bb84-4e47-b642-72ac2fc63a4a" sourceRef="node_8c6d106c-373c-4fb9-9d68-2df9e2ce66be">
+    <ns0:standardLoopCharacteristics testBefore="false"/>
+  </task>
+  <task id="node_8c6d106c-373c-4fb9-9d68-2df9e2ce66be" name="7" sourceRef="node_1aae0848-8dd5-4113-9382-5ce175bf5faf" targetRef="node_b19a3c5a-774a-40a0-bc14-37ef1298a0b0">
+    <ns0:standardLoopCharacteristics testBefore="false"/>
+  </task>
+  <task id="node_7f82aed3-1ea5-4448-8191-5ec86b0f9d02" name="8" targetRef="node_77e5a5e3-6ff0-496d-aab3-83bb6df560e8" sourceRef="node_1aae0848-8dd5-4113-9382-5ce175bf5faf,node_ee55a370-e3d8-4d2e-8fef-efb43702bc71">
+    <ns0:standardLoopCharacteristics testBefore="false"/>
+  </task>
+  <task id="node_d1090127-e343-4e10-a687-c680845628c6" name="9" sourceRef="node_679ce3a2-f429-40d9-beb8-f2f2534d2472" targetRef="node_679ce3a2-f429-40d9-beb8-f2f2534d2472,node_55dea8d2-605f-48cc-bf85-95b67e1fc01f">
+    <ns0:standardLoopCharacteristics testBefore="false"/>
+  </task>
+  <task id="node_2933d415-bb84-4e47-b642-72ac2fc63a4a" name="10" sourceRef="node_2e81d6be-b104-4de7-820a-a0660006ce9d,node_b19a3c5a-774a-40a0-bc14-37ef1298a0b0" targetRef="node_2e81d6be-b104-4de7-820a-a0660006ce9d">
+    <ns0:standardLoopCharacteristics testBefore="false"/>
+  </task>
+</ns0:definitions>
