@@ -4,7 +4,7 @@
 ## 运行环境 
 Python 3.8  
 PIP 21.2.3  
-依赖包目录保存在：`requirements.txt` 中  
+- 依赖包目录保存在：`requirements.txt` 中  
 Java 1.8  
 - Java 依赖保存在`external_tools` 中，可以通过[SplitMiner](https://apromore.com/research-lab/) (v1, 2, 3)下载
 ## char5原始模型
