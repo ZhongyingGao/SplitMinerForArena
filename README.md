@@ -7,6 +7,7 @@
   - 依赖包目录保存在：`requirements.txt` 中
 - **Java 1.8**
   - Java 依赖保存在`char5事件日志生成/external_tools` 中，可以通过[SplitMiner](https://apromore.com/research-lab/) (v1, 2, 3)下载
+- **Arena14**
 ## char5原始模型
 文件夹中为第五章提到的叶轮快速制造系统仿真模型Model.doe，在Arena中运行后在C:\Users\123\Documents\mould\output\txt中输出事件记录文件  
 ## char5事件日志生成
